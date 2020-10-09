@@ -1,1 +1,23 @@
-/* Add your CSS here */
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.para1 {
+text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.column{
+  float:left;
+  width: 50%;
+}

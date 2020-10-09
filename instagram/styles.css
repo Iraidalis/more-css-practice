@@ -1,1 +1,45 @@
-/* Add your CSS here */
+body{
+  font-family: sans-serif;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding-bottom: 1000px;
+  padding-right: 70px;
+  border: 1px solid lightgrey;
+}
+.first > div{
+  text-align:left;
+  margin:20px;
+}
+.first :hover {
+  background-color: white;
+  border-left: 2px solid black;
+  color: black;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 30px;
+  align-items: flex-start;
+  border: 1px solid lightgrey;
+  padding-bottom: 1000px;
+}
+.link{
+  color:black;
+  text-decoration: none;
+}
+
+
+#about, #legal {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:lightgrey;
+  font-size: 20px;
+}
+
+#link {
+  text-decoration: none;
+}
