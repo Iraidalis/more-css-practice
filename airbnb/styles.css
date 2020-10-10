@@ -1,1 +1,41 @@
-/* Add your CSS here */
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+.search{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: salmon;
+}
+
+.check {
+  display: grid;
+  grid-column-gap:10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto;
+}
+
+.list {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+#guests{
+  margin-bottom: 20px;
+}
