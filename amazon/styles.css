@@ -5,6 +5,10 @@ body {
 h1 {
   color: #FF8C00;
 }
+h6{
+  font-size: 13px;
+  color: #A9A9A9;
+}
 
 h2 {
   border-bottom: 1px solid lightgrey;
@@ -18,4 +22,8 @@ h2 {
   grid-template-columns: auto auto auto auto;
   padding: 20px;
   padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+
 }
