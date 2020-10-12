@@ -1,6 +1,17 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: sans-serif;
   font-weight: bold;
+}
+
+h1 {
+  display: block;
+  color: white;
+  background-color: black;
+  height: 100px;
 }
 
 label {
@@ -14,16 +25,21 @@ input {
   width: 100%;
   padding: 10px;
 }
-.search{
+
+.search {
   width: 100%;
   padding: 10px;
   color: white;
-  background-color: salmon;
+  background-color: #ff6666;
+}
+
+.search:hover {
+  cursor: pointer;
 }
 
 .check {
   display: grid;
-  grid-column-gap:10px;
+  grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-template-columns: auto auto;
 }
@@ -36,6 +52,18 @@ input {
   padding: 20px;
   padding-bottom: 20px;
 }
-#guests{
+
+#guests {
   margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+img{
+  float:left;
+}
+button:hover {
+  cursor: pointer;
 }
